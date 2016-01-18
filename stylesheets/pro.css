@@ -1,0 +1,150 @@
+ .masthead.segment {
+      min-height: 43em;
+      padding: 1em 0em;
+        background:radial-gradient(#00A7A7,#3D3B3B); 
+
+
+    }
+   
+#h1{
+
+	color: black;
+}
+#h2{
+	
+	font-size: 100px;
+}
+
+
+#conn{
+	background-color: white;
+	
+}
+#video-para{
+	font-size: 1.7em;
+	       font-family: Helvetica,Arial,sans-serif;
+	       padding-top: 20%;
+
+}
+#video-head{
+	font-size: 4em;
+	 padding-left: 3em;
+}
+#practice-head{
+	font-size: 4em;
+}
+#learn{
+	font-style: bold;
+	font-size: 5em;
+	font-color:red;
+
+}
+#learnpara{
+	font-size: 1.7em;
+	    
+}
+
+#practise-head{
+	font-size: 4.5em;
+
+}
+#practise-para{
+	font-size: 1.7em;
+	       font-family: Helvetica,Arial,sans-serif;
+
+}
+#chat-head{
+	font-size: 5em
+}
+#chat-para{
+	font-size: 1.7em;
+	    font-family: Helvetica,Arial,sans-serif;
+}
+#footer{
+
+background:#002F5D;
+border-top: 1px solid #ddd;
+width: 100%;
+height:20em; 
+clear: both;
+float: left;
+overflow: hidden;
+
+}
+#follow{
+    font-size: 2em;
+	padding-top: 3em;
+}
+
+#footer-icon{
+	padding-top: 1em;
+}
+
+
+
+#design{
+
+
+	padding-top: 5em;
+	font-size: 20px;
+
+}
+
+#about{
+	color:white;
+	padding-top: 7.5em;
+	font-size: 15px;
+
+
+}
+.about_anchor{
+	color:white;
+
+}
+
+
+
+
+
+
+
+
+
+/*modal    css*/
+
+
+#modal1{
+
+	height: 60%;
+	background-color:#DADADA;
+
+}
+
+ #width1 {
+      max-width: 450px;
+    }
+
+.grid {
+      height: 100%;
+    }
+    #input1{
+
+    	font-size: 18px;
+    }
+
+
+
+
+
+
+
+/*register    css*/
+
+#abhi2{
+
+  background-color:red;
+}
+.field{
+
+  font-size: 25px;
+}
