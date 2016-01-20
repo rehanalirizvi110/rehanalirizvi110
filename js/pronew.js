@@ -17,10 +17,18 @@ $(document).ready(function() {
 
 
 /*sidebar*/
+
+
 $('#mobile_button').click(function(){
-  $('.ui.sidebar')
+ $('.ui.sidebar')
+  .sidebar('toggle')
+;
+ $('.ui.sidebar')
+  .sidebar('setting', 'transition', 'overlay')
   .sidebar('toggle')
 ;  
+
+
 });
 
 /*sidebar end*/
