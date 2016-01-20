@@ -5,15 +5,19 @@
 }
 #menu_container{
 	height: 10%;
+}
+#menu_container{
 	display: none;
 }
 .ui.borderless.menu{
 	background-color: transparent;
 }
-#m{
-		background-color: green
-	}
 
+#mobile_button{
+	display: inline-block;
+	float:right;
+	margin-top: 1%; 
+}
 
 /*menu end*/
 
@@ -29,12 +33,10 @@
 	#menu_container{
 		display: block;
 	}
-	#toc_icon{
-	display: none;
+	#mobile_button{
+		display: none;
 	}
-	#m{
-		background-color: red
-	}
+	
 
 }
 
@@ -44,12 +46,10 @@
 	#menu_container{
 		display: block;
 	}
-	#toc_icon{
-	display: none;
+	#mobile_button{
+		display: none;
 	}
-	#m{
-		background-color: red
-	}
+	
 	
  }
 
@@ -59,10 +59,8 @@
 	#menu_container{
 		display: block;
 	}
-	#toc_icon{
-	display: none;
+	#mobile_button{
+		display: none;
 	}
-	#m{
-		background-color: red
-	}
+	
  }	
