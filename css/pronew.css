@@ -10,9 +10,11 @@
 .ui.borderless.menu{
 	background-color: transparent;
 }
-#toc_icon{
-	z-index: 1;
-}
+#m{
+		background-color: green
+	}
+
+
 /*menu end*/
 
 
@@ -30,6 +32,9 @@
 	#toc_icon{
 	display: none;
 	}
+	#m{
+		background-color: red
+	}
 
 }
 
@@ -40,7 +45,10 @@
 		display: block;
 	}
 	#toc_icon{
-	z-index: -1;
+	display: none;
+	}
+	#m{
+		background-color: red
 	}
 	
  }
@@ -52,7 +60,9 @@
 		display: block;
 	}
 	#toc_icon{
-	z-index: -1;
+	display: none;
 	}
-
+	#m{
+		background-color: red
+	}
  }	
