@@ -1,0 +1,58 @@
+/*menu*/
+#menu{
+	height: 90%;
+	background:radial-gradient(#00A7A7,#3D3B3B); 
+}
+#menu_container{
+	height: 10%;
+	display: none;
+}
+.ui.borderless.menu{
+	background-color: transparent;
+}
+#toc_icon{
+	z-index: 1;
+}
+/*menu end*/
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px ) { 
+
+	#menu_container{
+		display: block;
+	}
+	#toc_icon{
+	display: none;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) { 
+
+	#menu_container{
+		display: block;
+	}
+	#toc_icon{
+	z-index: -1;
+	}
+	
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1170px) {
+
+	#menu_container{
+		display: block;
+	}
+	#toc_icon{
+	z-index: -1;
+	}
+
+ }	
