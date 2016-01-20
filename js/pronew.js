@@ -12,4 +12,17 @@ $(document).ready(function() {
 })
 .resize();//trigger the resize event on page load.
 
+
+
+
+
+/*sidebar*/
+$('#mobile_button').click(function(){
+  $('.ui.sidebar')
+  .sidebar('toggle')
+;  
 });
+
+/*sidebar end*/
+
+});/*ready end*/
