@@ -19,8 +19,24 @@
 	margin-top: 1%;
 	cursor: pointer; 
 }
+#jumbotron{
+	background-color: ;
+	padding: 15%;
+}
 
 /*menu end*/
+
+/*font*/
+#javafeTag {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 6em;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  color: white;
+  }
+
+  
+/*font end*/
 
 
 

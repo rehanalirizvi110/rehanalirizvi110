@@ -33,4 +33,11 @@ $('#mobile_button').click(function(){
 
 /*sidebar end*/
 
+/*terminal_icon*/
+$('#terminal_icon')
+  .transition('set looping')
+  .transition('flash', '3000ms')
+;
+/*terminal_icon end*/
+
 });/*ready end*/
