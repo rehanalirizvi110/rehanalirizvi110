@@ -20,7 +20,8 @@
 	cursor: pointer; 
 }
 #jumbotron{
-	padding-top: 50%;
+	margin-top: 10%;
+	padding: 10%;
 	
 }
 #slogan{
