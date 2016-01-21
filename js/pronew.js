@@ -5,9 +5,11 @@ $(document).ready(function() {
    var width = $(window).width();
    if(width <= 992 && width >= 768){
        $('#initial_menu').removeClass('huge').addClass('large');
+       /*$('#get_started').removeClass('huge').addClass('large');*/
    }
    else{
        $('#initial_menu').removeClass('large').addClass('huge');
+       /*$('#get_started').removeClass('large').addClass('huge');*/
    }
 })
 .resize();//trigger the resize event on page load.
