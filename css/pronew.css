@@ -49,13 +49,22 @@
 /*menu end*/
 
 /*second page*/
-#vid{
-	height: 10%;
-	background-color: red;
-}
 #heading_second{
 	font-family:  "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic";
 	font-size: 2em;
+}
+#second_row{
+	height: 10%;
+}
+#video_description_div{
+	
+	
+}
+
+#video_description{
+	font-size: 1em;
+	font-family: Helvetica,Arial,sans-serif;
+
 }
 /*second page end*/
 
@@ -92,10 +101,18 @@
 	font-size: 1.2em;
 	}
 	#jumbotron{
+	margin-top: 0%;
 	padding: 10%;
 	}
 	#heading_second{
 		font-size: 2.5em;
+	}
+	#video_description_div{
+	padding: 18% 15% 15% 0%;
+	}
+
+	#video_description{
+	font-size: 1.3em;
 	}
 	
 
@@ -124,10 +141,17 @@
 	font-size: 1.5em;
 	}
 	#jumbotron{
+	margin-top: 0%;
 	padding: 10%;
 	}
 	#heading_second{
 		font-size: 3em;
+	}#video_description_div{
+	padding: 18% 15% 15% 0%;
+	}
+
+	#video_description{
+	font-size: 1.5em;
 	}
 	
 	
@@ -156,10 +180,19 @@
 	font-size: 1.5em;
 	}
 	#jumbotron{
+	margin-top: 0%;
 	padding: 10%;
 	}
 	#heading_second{
 		font-size: 3em;
 	}
+	#video_description_div{
+	padding: 18% 15% 15% 0%;
+	}
+
+	#video_description{
+	font-size: 1.5em;
+	}
+
 	
  }	

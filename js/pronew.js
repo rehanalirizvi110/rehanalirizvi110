@@ -42,4 +42,10 @@ $('#terminal_icon')
 ;
 /*terminal_icon end*/
 
+/*video*/
+
+$('.ui.embed').embed();
+/*video end*/
+
+
 });/*ready end*/
