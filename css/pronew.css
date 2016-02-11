@@ -62,13 +62,169 @@
 }
 
 #video_description{
-	font-size: 1em;
-	font-family: Helvetica,Arial,sans-serif;
+	font-size: 1.3em;
+	font-family: 'Nunito', sans-serif;
 
 }
 /*second page end*/
 
+/*third page*/
 
+#original{
+        display: none;
+
+       }
+       #duplicate{
+         display: inline-block;
+       }
+
+
+
+
+
+
+/*third page end*/
+
+/*fourth page*/
+#developer_heading{
+	font-size: 1.5em;
+	font-family: 'Nunito', sans-serif;
+
+}
+#fourth_page{
+	
+	height: 100%;
+	
+	
+}
+#fourth_page_container{
+	height: 100%;
+	
+	
+}
+
+.dev{
+	
+	height: 80%;
+	width: 100%;
+	background-color: #00b5ad;
+	padding-top: 5%;
+	
+}
+.dev_img{
+	height: 50px;
+	width: 50px;
+}
+
+#dev_name1{
+	margin-top: 8%;
+	font-size: 1.3em;
+	color:white;
+	font-family: 'Nunito', sans-serif;
+}
+#dev_comment1{
+	margin-top: 15%;
+	font-size: 1.1em;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: white;
+	font-family: 'Poiret One', cursive;
+}
+#dev_name2{
+	margin-top: 8%;
+	font-size: 1.8em;
+	color:white;
+	font-family: 'Nunito', sans-serif;
+}
+#dev_comment2{
+	margin-top: 15%;
+	font-size: 1.4em;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: white;
+	font-family: 'Poiret One', cursive;
+}
+#dev_name3{
+	margin-top: 8%;
+	font-size: 1.8em;
+	color:white;
+	font-family: 'Nunito', sans-serif;
+}
+#dev_comment3{
+	margin-top: 15%;
+	font-size: 1.4em;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: white;
+	font-family: 'Poiret One', cursive;
+}
+
+
+/*fourth page end*/
+
+/*footer start*/
+
+#footer{
+
+background:#663399;
+border-top: 1px solid #ddd;
+width: 100%;
+height:20em; 
+clear: both;
+float: left;
+overflow: hidden;
+
+}
+
+
+/*about start*/
+#about{
+	color:white;
+	padding-top: 3em;
+	font-size: 10px;
+
+
+}
+.about_anchor{
+	color:white;
+
+}
+#desgin{
+		padding-top: 3em;
+		font-size: 10px;
+	    color: white;
+
+
+}
+#logo{
+	padding-left: 1em;
+	color: white;
+}
+#addres{
+	color: white;
+	padding-left: 1em;
+	font-size: 7px;
+
+}
+ #follow{
+
+       color: white;
+       font-family: cursive;
+       padding-top: 2em;
+       font-size: 13px;
+
+       
+       }   
+
+
+
+
+/*about end*/
+
+
+
+
+/*footer end*/
 
 
 
@@ -108,14 +264,95 @@
 		font-size: 2.5em;
 	}
 	#video_description_div{
-	padding: 18% 15% 15% 0%;
+	padding: 5% 15% 15% 0%;
 	}
 
 	#video_description{
 	font-size: 1.3em;
 	}
-	
+	#second_row{
+	height: 20%;
+	}
+	#about{
+		padding-top: 3em;
+	font-size: 10px;
 
+	}
+	#desgin{
+		padding-top: 3em;
+		font-size: 13px;
+        color: white;
+         font-family: cursive;
+
+           }
+   #logo{
+	padding-left: 5em;
+        }
+
+      #addres{
+	          color: white;
+	          padding-left: 5em;
+	          font-size: 7.5px;
+
+              } 
+       #follow{
+
+       color: white;
+       font-family: cursive;
+       padding-top: 3em;
+       font-size: 13px;
+
+       }  
+       #original{
+        display: inline-block;
+
+       }
+       #duplicate{
+         display: none;
+       }
+        #developer_heading{
+       	font-size: 1.7em;
+       } 
+       .dev{
+       	width: 80%;
+       	height: 70%;
+       }
+       .dev_img{
+			height: 65px;
+			width: 65px;
+			}
+
+        
+        #dev_name1{
+			margin-top: 8%;
+			font-size: 1.5em;
+			
+			}
+		#dev_comment1{
+			margin-top: 35%;
+			font-size: 1em;
+			}
+		#dev_name2{
+			margin-top: 8%;
+			font-size: 1.5em;
+			
+			}
+		#dev_comment2{
+			margin-top: 35%;
+			font-size: 1em;
+			}
+			#dev_name3{
+			margin-top: 8%;
+			font-size: 1.5em;
+			
+			}
+		#dev_comment3{
+			margin-top: 35%;
+			font-size: 1em;
+			}
+
+       
+            
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -153,8 +390,91 @@
 	#video_description{
 	font-size: 1.5em;
 	}
-	
-	
+	#second_row{
+	height: 30%;
+	}
+	#about{
+		padding-top: 3em;
+	font-size: 12px;
+
+	}
+	#desgin{
+		padding-top: 3em;
+		font-size: 15px;
+	    color: white;
+
+
+            }
+    #logo{
+	padding-left: 9em;
+          }      
+	 #addres{
+	          color: white;
+	          padding-left: 6em;
+	          font-size: 10px;
+
+            }
+	 #follow{
+
+       color: white;
+       font-family: cursive;
+       padding-top: 3em;
+       font-size: 13px;
+
+       } 
+
+    #footer-icon{
+    	 padding-left: 6em;
+
+
+    }
+    #original{
+        display: inline-block;
+
+       }
+       #duplicate{
+         display: none;
+       }
+     #developer_heading{
+       	font-size: 2em;
+       }
+     .dev{
+       	width: 80%;
+       	height: 70%;
+       }
+    .dev_img{
+			height: 100px;
+			width: 100px;
+			}
+    
+        #dev_name1{
+			margin-top: 8%;
+			font-size: 2em;
+			
+			}
+		#dev_comment1{
+			margin-top: 20%;
+			font-size: 1.5em;
+			}
+		#dev_name2{
+			margin-top: 8%;
+			font-size: 2em;
+			
+			}
+		#dev_comment2{
+			margin-top: 20%;
+			font-size: 1.5em;
+			}
+			#dev_name3{
+			margin-top: 8%;
+			font-size: 2em;
+			
+			}
+		#dev_comment3{
+			margin-top: 20%;
+			font-size: 1.5em;
+			}
+
  }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -193,6 +513,87 @@
 	#video_description{
 	font-size: 1.5em;
 	}
+	#second_row{
+	height: 30%;
+	}
+	#about{
+		padding-top: 3em;
+	font-size: 15px;
+
+	}
+	#desgin{
+		padding-top: 3em;
+		font-size: 17px;
+		color: white;
+
+		}	
+    #logo{
+	        padding-left: 11em;
+	        color: white;
+         }
+
+     #addres{
+	          color: white;
+	          padding-left: 8em;
+	          font-size: 10px;
+
+            }	
+      #follow{
+
+       color: white;
+       font-family: cursive;
+       padding-top: 3em;
+       font-size: 16px;
+        padding-left: 5em;
+
+       }   
+       #original{
+        display: inline-block;
+
+       }
+       #duplicate{
+         display: none;
+       }
+       #developer_heading{
+       	font-size: 2em;
+       }
+       .dev{
+       	width: 80%;
+       	height: 70%;
+       }
+
+       .dev_img{
+			height: 100px;
+			width: 100px;
+			}
+
+        #dev_name1{
+			margin-top: 8%;
+			font-size: 2em;
+			
+			}
+		#dev_comment1{
+			margin-top: 20%;
+			font-size: 1.5em;
+			}
+		#dev_name2{
+			margin-top: 8%;
+			font-size: 2em;
+			
+			}
+		#dev_comment2{
+			margin-top: 20%;
+			font-size: 1.5em;
+			}
+			#dev_name3{
+			margin-top: 8%;
+			font-size: 2em;
+			
+			}
+		#dev_comment3{
+			margin-top: 20%;
+			font-size: 1.5em;
+			}
+}
 
 	
- }	

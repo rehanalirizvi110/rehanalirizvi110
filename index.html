@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="css/pronew.css">
 
+<link href='https://fonts.googleapis.com/css?family=Architects+Daughter|Poiret+One|Noto+Sans|Nunito|Pacifico|Lovers+Quarrel|Catamaran|Rubik|Kanit|Ubuntu+Mono' rel='stylesheet' type='text/css'>
   <!--jquery file-->     
   <script type="text/javascript" src="js/jquery.js"></script>
 
@@ -44,10 +45,10 @@
               <a class="item">Help</a>
               <div class="right menu">
                 <div class="item">
-                  <a class="ui inverted green button">Log in</a>
+                  <a class="ui inverted green button" data-toggle="modal" data-target="#myModal">Log in</a>
                 </div>
                 <div class="item">
-                  <a class="ui inverted button">Sign Up</a>
+                  <a href="signup.jsp" class="ui inverted button">Sign Up</a>
                 </div>
               </div>
             </div>
@@ -59,28 +60,30 @@
     <div id="jumbotron">
       <center><h1 id="javafeTag"><i id="terminal_icon" style="font-size:0.8em;" class="terminal inverted icon"></i>javaFE</h1></center>
       <center><h3 id="slogan">Come, lets learn together...</h3></center></br></br>
-      <center><button id="get_started" class="ui right labeled teal icon button">
+      <center><a href="javafe.jsp"><button id="get_started" class="ui right labeled teal icon button">
         <i class="right arrow icon"></i>
         Get Started
-      </button></center>
+      </button> </a></center>
 
     </div>
   </div>
 </div><!-- first page container-fluid end -->
 
+<!-- second page container  -->
 <div class="container">
   <div id="second_row" class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <br>
       <center><h1 id="heading_second">How javaFE work</h1></center>
     </div>
   </div>
   <div class="row">
-    <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
       <div id="video_description_div">
       <p id="video_description"> Practice what you've learned through quizzes and interactive Code Challenges. This style of practicing will allow you to retain information you've learned so you can apply it to your own future projects.</p>
       </div>
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
       <div class="ui embed" data-source="youtube" data-id="pvAsqPbz9Ro" data-placeholder="image/512.png">
       </div>
       </div>
@@ -88,10 +91,223 @@
   </div>
 </div>
 
+<!-- second page container end -->
+
+<!-- third page container  -->
+<div class="container">
+    <!-- divider -->
+    <br><br><div class="ui horizontal divider header">
+ <i class="student large icon"></i>
+    </div><br><br>
+  <!-- divider end -->
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      <center ><h1 style="font-family: 'Nunito', sans-serif;">Learn</h1></center>
+      <p style="font-family: 'Nunito', sans-serif; font-size:1.3em;"> Practice what you've learned through quizzes and interactive Code Challenges. This style of practicing will allow you to retain information you've learned so you can apply it to your own future projects.</p>
+    </div>
+    <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      
+        <center><img  height="200px" width="320px" src="image/learn_320_1.png"/></center>  
+    
+
+    </div>
+  </div>
+  <br>  <br>  <br>  <br>
+  <div class="row">
+    <div id="original"class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <center>  <img    height="200px" width="320px" src="image/practice_320.png"></center>   
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+       <center><h1 style="font-family: 'Nunito', sans-serif;">Practice</h1></center>
+       <p  style="font-family: 'Nunito', sans-serif; font-size:1.3em;"> Practice what you've learned through quizzes and interactive Code Challenges. This style of practicing will allow you to retain information you've learned so you can apply it to your own future projects.</p>
+    </div>
+     <div id="duplicate"class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <center>  <img    height="200px" width="320px" src="image/practice_320.png"></center>   
+    </div>
+  </div>
+    <br>  <br>  <br>  <br>
+  <div class="row">  
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+       <center><h1 style="font-family: 'Nunito', sans-serif;">Query</h1></center>
+       <p style="font-family: 'Nunito', sans-serif; font-size:1.3em;"> Practice what you've learned through quizzes and interactive Code Challenges. This style of practicing will allow you to retain information you've learned so you can apply it to your own future projects.</p>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    <center><img  height="200px" width="320px" src="image/query_320.png"></center> 
+    </div>
+  
+  </div>
+
+   <!-- divider -->
+    <br><br>
+    <div class="ui horizontal divider header">
+  <i class="users icon"></i>
+    </div>
+    <div calss="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <center><h3 id="developer_heading">Developers</h3></center>
+        <br><br>
+      </div>
+    </div>
+    
+    
+  <!-- divider end -->
+
+</div>
+<!-- third page container end -->
+
+<!-- fourth page container  -->
+<div id="fourth_page" class="container-fluid">
+
+    <div id="fourth_page_container" class="container">
+
+    <div class="row">
+      <div style="height:100%" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        
+        <div class="dev" >
+           <center><img src="image/pulkit.jpg" alt="n" class="img-circle dev_img"/></center>
+           
+           <center><p id="dev_name1" class="dev_name">Pulkit Bhagia</p></center>
+           
+           <center><p id="dev_comment1" class="dev_comment">How to Outgrow the Fear of Starting.How to Outgrow the Fear of Starting.How to Outgrow the Fear of Starting.How to Outgrow the Fear of Starting.</p></center>
+        </div>
+
+      </div>
+      <div style="height:100%" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="dev" >
+          <center><img src="image/pulkit.jpg" alt="n" class="img-circle dev_img"/></center>
+          
+           <center><p id="dev_name2"class="dev_name">Pulkit Bhagia</p></center>
+           
+           <center><p id="dev_comment2" class="dev_comment">How to Outgrow the Fear of Starting.How to Outgrow the Fear of Starting.How to Outgrow the Fear of Starting.How to Outgrow the Fear of Starting.</p></center>
+        </div>
+      </div>
+      <div style="height:100%" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="dev">
+          <center><img src="image/pulkit.jpg" alt="n" class="img-circle dev_img"/></center>
+          
+           <center><p id="dev_name3" class="dev_name">Pulkit Bhagia</p></center>
+           
+           <center><p id="dev_comment3" class="dev_comment">How to Outgrow the Fear of Starting.How to Outgrow the Fear of Starting.How to Outgrow the Fear of Starting.How to Outgrow the Fear of Starting.</p></center>
+        </div>
+      </div>
+    </div>
+
+    </div>
+</div>
+
+
+<!-- fourth page container end -->
 
 
 
-</div><!-- sidebar end -->
+
+
+
+<!-- footer start -->
+<div  id="footer" class="container-fluid">
+      <div class="row">
+           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+               <div id="about" >
+                 <ul >
+                    <li><a href=" #"class="about_anchor">About us</a></li>
+                     <li><a href="#" class="about_anchor">Tags</a>
+
+                     </li>
+                    <li><a href="#" class="about_anchor">Support</a>
+                    </li>
+                    <li><a href="#" class="about_anchor">Contact</a>
+                    </li>
+                   
+                   <li><a href="#" class="about_anchor">Terms & conditions</a>
+                   </li>
+                   <li><a href="#" class="about_anchor">Copyright notification</a>
+                   </li>
+                   <li><a href="#" class="about_anchor">Privacy policy</a>
+                   </li>
+                </ul>
+              </div>     
+      </div>
+ <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+          <center><p id="desgin">Designed and developed by javaFE.com</p></center><br>
+             <div id="logo"> 
+             <img src="image/64.png"><span><strong>javafe</strong></span>
+              </div><br>
+                  <div id="addres">
+                      <address>© 2016-2018 Graphic Resources.All rights reserved</address>
+                  </div>   
+</div>
+        
+
+
+
+
+
+   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <p id="follow">Follow us on:</p><br>
+       <div id="footer-icon">
+         <a  href="http://www.facebook.com"> <i class=" facebook inverted square big icon"></i></a><a  href="http://www.facebook.com"> <i class="google inverted plus big square icon"></i></a> 
+         <a  href="http://www.facebook.com"> <i class="linkedin inverted big square icon"></i></a> 
+        <a  href="http://www.facebook.com"> <i class="twitter inverted big square icon"></i></a> 
+         <a  href="http://www.facebook.com"> <i class="youtube inverted big square icon"></i></a> 
+       </div>
+   </div>
+   
+
+
+    </div>
+</div>  
+
+
+<!-- footer end -->
+
+
+
+
+
+
+
+
+
+  
+ 
+  
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div style="background-color:#009c95" class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <center><h2 style="color:white;">Login</h2></center>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname">Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw">Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <button style="background-color:#009c95" type="submit" class="btn btn-default btn-success btn-block"> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-default btn-default pull-left" data-dismiss="modal"> Cancel</button>
+          <p>Forgot <a href="#">Password?</a></p>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+
+<!-- login modal end -->
+
+
 <!-- js files -->
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/semantic.min.js"></script>

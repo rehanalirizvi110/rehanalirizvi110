@@ -48,4 +48,45 @@ $('.ui.embed').embed();
 /*video end*/
 
 
+/*follow us on start*/
+$('.facebook').mouseenter(function(){
+  $('.facebook').css({'color':'#3b5998'});
+});
+$('.facebook').mouseleave(function(){
+  $('.facebook').css({'color':'white'});
+});
+$('.google').mouseenter(function(){
+  $('.google').css({'color':'#dd4b39'});
+});
+$('.google').mouseleave(function(){
+  $('.google').css({'color':'white'});
+});
+$('.linkedin').mouseenter(function(){
+  $('.linkedin').css({'color':'#007bb5'});
+});
+$('.linkedin').mouseleave(function(){
+  $('.linkedin').css({'color':'white'});
+});
+$('.twitter').mouseenter(function(){
+  $('.twitter').css({'color':'#00aced'});
+});
+$('.twitter').mouseleave(function(){
+  $('.twitter').css({'color':'white'});
+});
+
+$('.youtube').mouseenter(function(){
+  $('.youtube').css({'color':'#bb0000'});
+});
+$('.youtube').mouseleave(function(){
+  $('.youtube').css({'color':'white'});
+});
+  
+/*follow us on end*/
+
+
+/*login modal start*/
+
+ 
+/*madal login end*/
+
 });/*ready end*/
